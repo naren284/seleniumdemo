@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.tests.DemoWebshopTest">
+        <methods>
+          <include name="beforetest"/>
+          <include name="testLoginLink" invocation-numbers="3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27"/>
+          <include name="afterTest"/>
+          <include name="testRegisterLink"/>
+        </methods>
+      </class> <!-- com.tests.DemoWebshopTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
